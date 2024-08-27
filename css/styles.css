@@ -76,7 +76,8 @@
     font-weight: 700;
  }
  .nav-links li a:hover {
-    color: #fae7b770;
+    color: #fae7b776;
+    transition: 0.5s ease;
  }
 
  .nav-links li {
@@ -679,6 +680,13 @@
       padding: 10px;
   }
 
+  .redesocial img {
+    width: 30px;
+    float: right;
+    margin: 0 1vh -15px ;
+    padding: 5px;
+  }
+
   .footer-text p {
     margin-bottom: 14px;
     font-size: 14px;
@@ -1014,9 +1022,21 @@ input[type="text"],
       margin-bottom: -80px;
       margin-bottom: -40px;
       display: block;
+      margin-bottom: 20px;
   }
 
-
+  .redesocial img {
+    width: 30px;
+    float: none;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 5px;
+    padding: 5px;
+  }
 
 
 
